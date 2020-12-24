@@ -58,12 +58,18 @@ $(document).ready(function() {
             $(".cats .cats-list").slideUp(300);
         });
     }
+    //new-----------------
     if ($(window).width() <= 991) {
-        $(".cats").click(function() {
-            $(".cats .nav-link").toggleClass("rotate");
-            $(".cats .cats-list").slideToggle(300);
+        $(".cats .nav-link").click(function() {
+            $(this).toggleClass("rotate");
+            $(this).siblings(".cats .cats-list").slideToggle(300);
         });
     }
+    //new-----------------
+    $(".cats .cats-link").click(function() {
+        $(this).toggleClass("rotate");
+        $(this).siblings(".sub-list").slideToggle(300);
+    });
     //To Open Offers Box
     $(".offers").click(function() {
         $("body").addClass("overflow");
