@@ -299,13 +299,13 @@
         }
         /*new*/
         /*** Sub List Start ***/
-        .cats-li:nth-child(4) .cats-link::after {
+        .sub-box .cats-link::after {
             content: "\f078";
             font-family: "Font Awesome 5 Free";
             font-weight: 600;
             font-size: 12px;
         }
-        html[dir=ltr] .cats-li:nth-child(4) .cats-link::after {
+        html[dir=ltr] .sub-box .cats-link::after {
             content: "\f078";
         }
         .sub-list {
@@ -941,13 +941,13 @@
         }
         /*new*/
         /*** Sub List Start ***/
-        .cats-li:nth-child(4) .cats-link::after {
+        .sub-box .cats-link::after {
             content: "\f078";
             font-family: "Font Awesome 5 Free";
             font-weight: 600;
             font-size: 12px;
         }
-        html[dir=ltr] .cats-li:nth-child(4) .cats-link::after {
+        html[dir=ltr] .sub-box .cats-link::after {
             content: "\f078";
         }
         .sub-list {
